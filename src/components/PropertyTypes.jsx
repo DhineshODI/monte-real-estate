@@ -126,7 +126,7 @@ export default function PropertyTypes() {
                       <span className="pill">
                         <img
                           className="animateicon"
-                          src="/images/icons/calllogo.png"
+                          src="/images/icons/donwloadlogo.png"
                           alt=""
                         />
                         Catalog Download

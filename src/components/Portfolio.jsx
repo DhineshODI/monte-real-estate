@@ -228,7 +228,7 @@ export default function Portfolio() {
 
         <div className="p-foot">
           <span></span>
-          <span className="pill lt paragraphtexttt">All Properties</span>
+          <span className="pill lt paragraphtexttt buttonpadding">All Properties</span>
           <span className="paragraphtexttt">
             Don’t Miss Out on Hot Deals. <br /> Follow us on Social Media
           </span>

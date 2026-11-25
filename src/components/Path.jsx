@@ -1,7 +1,6 @@
 import { useLayoutEffect, useRef } from "react";
 import { gsap } from "../motion";
 
-
 export default function Path() {
   const root = useRef();
 
@@ -51,7 +50,13 @@ export default function Path() {
         .to(".cir span", { opacity: 0, duration: 0.4 }, 1.8)
         .to(".cir", { x: 0, y: 0, duration: 1.1 }, 3.1)
         .to(".one", { opacity: 1, duration: 0.6 }, 3.8)
-        .to(".dlb", { opacity: 1, y: -10, duration: 0.6 }, 4);
+        .to(".dlb", { opacity: 1, y: -10, duration: 0.6 }, 4)
+        .to(".pill.dlb.whitecolorrrrrbgggg", {
+          "--fill": "100%",
+          color: "#fff",
+          duration: 0.95,
+          ease: "expo.out",
+        });
     });
     return () => mm.revert();
   }, []);
@@ -77,12 +82,9 @@ export default function Path() {
           Ownership
         </div>
       </div>
-      {/* <span className="pill dlb paragraphtexttt">
-        <i>↓</i>Catalog download
-      </span> */}
 
-      <span className="pill dlb paragraphtexttt">
-        <img className="animateicon" src="/images/icons/calllogo.png" alt="" />
+      <span className="pill dlb paragraphtexttt whitecolorrrrrbgggg">
+        <img className="animateicon" src="/images/icons/donwloadlogo.png" alt="" />
         Catalog Download
       </span>
     </section>

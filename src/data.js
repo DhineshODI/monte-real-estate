@@ -35,16 +35,16 @@ export const PORTFOLIO = [
     ["Azure Heights Luxury Residences", "/images/portfolio/portfolio-2.jpg"],
   ],
   [
-    ["Palm Villa Collection", "/images/portfolio/portfolio-5.jpg"],
-    ["Marina Garden Villa", "/images/portfolio/portfolio-6.jpg"],
-    ["Creek Estate", "/images/portfolio/portfolio-7.jpg"],
-    ["Dune Villa", "/images/portfolio/portfolio-8.jpg"],
+    ["Palm Villa Collection", "/images/portfolio/portfolio-2.jpg"],
+    ["Marina Garden Villa", "/images/portfolio/portfolio-1.jpg"],
+    ["Creek Estate", "/images/portfolio/portfolio-2.jpg"],
+    ["Dune Villa", "/images/portfolio/portfolio-1.jpg"],
   ],
   [
-    ["Marina Studio to Let", "/images/portfolio/portfolio-9.jpg"],
-    ["Downtown One Bed to Let", "/images/portfolio/portfolio-10.jpg"],
-    ["JVC Two Bed to Let", "/images/portfolio/portfolio-11.jpg"],
-    ["Business Bay Loft to Let", "/images/portfolio/portfolio-12.jpg"],
+    ["Marina Studio to Let", "/images/portfolio/portfolio-1.jpg"],
+    ["Downtown One Bed to Let", "/images/portfolio/portfolio-2.jpg"],
+    ["JVC Two Bed to Let", "/images/portfolio/portfolio-1.jpg"],
+    ["Business Bay Loft to Let", "/images/portfolio/portfolio-2.jpg"],
   ],
 ];
 
