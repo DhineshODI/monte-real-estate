@@ -1152,6 +1152,7 @@ h2 {
     margin-bottom: -110px;
   }
 }
+
 @media (prefers-reduced-motion: reduce) {
   .mq-t {
     transform: none !important;
@@ -1210,4 +1211,293 @@ h2 {
   background-size: var(--fill) 100%;
   color: #000;
   border-radius: 99px;
+}
+
+@media (max-width: 700px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  .contactbgimage {
+    width: 100%;
+  }
+  .sectionheadingggg {
+    font-size: 30px !important;
+  }
+  .herobannerheading {
+    font-size: 35px !important;
+  }
+
+  .paragraphtexttt {
+    font-size: 14px !important;
+    line-height: 120%;
+  }
+
+  .container {
+    padding-inline: 5px;
+  }
+
+  .flexxclassss {
+    flex-direction: column;
+  }
+
+  .servicesec1,
+  .servicesec2 {
+    width: 100%;
+  }
+
+  .tailoredddd .lb.paragraphtexttt {
+    font-size: 16px !important;
+    line-height: 100%;
+  }
+
+  .sp .th {
+    width: 50px;
+    height: 50px;
+    display: none !important;
+  }
+
+  .sp > button {
+    gap: 20px;
+    padding: 14px 0px 16px 28px;
+    padding-right: 30px;
+    align-items: center;
+    line-height: 100%;
+  }
+
+  .sp sup {
+    font-size: 11px;
+    margin-left: 7px;
+  }
+
+  .sp .bd p {
+    padding: 0px 13px 14px 37px;
+    color: #555;
+  }
+
+  .chips .mq-t span {
+    font-size: 35px;
+    padding: 6px 33px;
+  }
+
+  .sp .ch {
+    font-size: 20px;
+  }
+
+  .chips {
+    margin: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .svc.tailoredddd {
+    min-height: max-content;
+    padding-bottom: 20px;
+  }
+
+  .path {
+    padding-top: 20px;
+  }
+
+  .sec {
+    padding-bottom: 35px;
+    padding-top: 35px;
+  }
+
+  .portfoliosection .arrow {
+    width: 35px;
+    height: 35px;
+    top: 25px;
+    right: 25px;
+  }
+
+  .portfoliosection .arrow img {
+    width: 25px;
+  }
+
+  .p-foot {
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .p-foot .paragraphtexttt {
+    text-align: center;
+  }
+
+  .counterheadingg {
+    font-size: 35px !important;
+  }
+
+  .stat span {
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  .stat {
+    grid-template-columns: minmax(84px, 29%) 1fr;
+  }
+
+  .team {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 25px;
+  }
+
+  .team div {
+    width: 100%;
+  }
+
+  .team .paragraphtexttt {
+    width: 100%;
+  }
+
+  .about {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .properttttt .cols {
+    grid-template-columns: 1fr;
+  }
+
+  .properttttt .cols .imagesssssection {
+    height: 300px !important;
+    min-height: 300px;
+    max-height: 300px;
+    border-radius: 0;
+  }
+
+  .properttttt .cols .arrow img {
+    height: 20px !important;
+    min-height: 20px;
+  }
+
+  .ty .t {
+    left: 20px;
+    bottom: 35px;
+    font-size: 20px;
+  }
+
+  .ty .n {
+    display: none;
+  }
+
+  .properttttt .col {
+    margin-top: 5px !important;
+  }
+
+  .types h2 {
+    margin-bottom: 30px;
+  }
+
+  .properttttt .cols .imageeelogioo {
+    max-height: 40px;
+  }
+
+  .mq-logo {
+    height: 50px;
+  }
+
+  .partners .mq-t span {
+    padding-right: 0px;
+  }
+
+  .faq {
+    padding-top: 15px;
+  }
+
+  .faq h2 {
+    margin-bottom: 18px;
+    margin-top: 20px;
+  }
+
+  .adv {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .adv h3 {
+    font-size: 17px;
+    margin: 12px 0 8px;
+    margin-bottom: 10px;
+  }
+
+  .why-top {
+    margin-bottom: 25px;
+  }
+
+  .about .l {
+    gap: 0px;
+  }
+
+  .h-foot {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .exploreherobannerr img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .exploreherobannerr .inmagetag::before {
+    top: -3px;
+    left: 46px;
+    width: 23px;
+    height: 23px;
+  }
+
+  .h-mid {
+    margin-bottom: 20px;
+    margin-top: 68px;
+  }
+
+  .h-left {
+    min-height: 50vh;
+  }
+
+  .contactuuusss {
+    display: none;
+  }
+
+  .h-meta {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 20px;
+    left: 26px;
+    top: 30px;
+    right: 10px;
+  }
+
+  .h-meta span br {
+    display: none;
+  }
+  .h-meta span {
+    max-width: 49%;
+  }
+
+  /* .sfb-media {
+    border-radius: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+  }
+
+  .sfb-root {
+    min-height: 200px;
+  } */
+
+  .foot a {
+    margin-bottom: 10px;
+    font-size: 15px !important;
+  }
+
+  .foot .small.paragraphtexttt {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+  }
+
+  .foot {
+    padding-top: 20px;
+    gap: 20px;
+  }
 }

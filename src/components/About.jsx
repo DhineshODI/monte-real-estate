@@ -103,7 +103,7 @@ export default function About() {
 
         <img className="contactbgimage" src="/images/contact-us.jpg" alt="" />
         <span
-          className="pill lt"
+          className="pill lt contactuuusss"
           style={{ position: "absolute", right: 16, top: 16 }}
         >
           Contact us

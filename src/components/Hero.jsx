@@ -85,7 +85,7 @@ export default function Hero() {
         </div>
         <div className="h-foot">
           <a href=" ">
-            <span className="pill">
+            <span className="pill contactuuusss">
               <img
                 className="animateicon"
                 src="/images/icons/calllogo.png"

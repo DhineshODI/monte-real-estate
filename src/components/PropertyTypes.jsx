@@ -66,7 +66,7 @@ export default function PropertyTypes() {
   }, []);
 
   return (
-    <section className="sec types" ref={root}>
+    <section className="sec types properttttt" ref={root}>
       <h2 className="sectionheadingggg">
         <Lines lines={["Discover Your Ideal", "Property Type"]} />
       </h2>
